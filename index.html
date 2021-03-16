@@ -1,181 +1,137 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 	<head>
-	    
-<title>墨冉主页</title>
-<meta name="keywords" content="墨冉主页">
-<meta name="description" content="墨冉主页">
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<meta charset="utf-8">
+		<title>墨冉开发网站</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/page.css" />
+		<link href="plugins/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="plugins/css/icons.min.css" rel="stylesheet" type="text/css" />
 	</head>
-	<body class="landing">
-		<div id="page-wrapper">
-
-			<!-- Header -->
-				<header id="header">
-					<h1 id="logo"><a href="https://jq.qq.com/?_wv=1027&k=j4JuKyMo">主题交流群</a></h1>
-					<nav id="nav">
+	<body>
+		<div class="page" id="app">
+			<div class="nav-left" v-show="navLeftFlag" ref="navLeft">
+				<div class="LogoName">
+					墨冉开发网站
+				</div>
+				<div class="navDiv">
+					<div class="navName">导航</div>
+					<div class="nav-list">
 						<ul>
-							<li><a href="http://vfaner.com">教程</a>
-							<li><a href="http://vfaner.com">主题</a>
-							<li><a href="http://vfaner.com">更新内容</a></li>
-							<li><a href="http://url.4rxb.com/s/4d0250" target="_blank" class="button special">联系作者</a></li>
-						</ul>
-					</nav>
-				</header>
-
-			<!-- Banner -->
-				<section id="banner">
-					<div class="content">
-						<header>
-							<h2>墨冉主页</h2>
-							<p>欢迎小伙伴们的到来<br />
-							这里包含主题教程及获取主题等</p>
-						</header>
-						<span class="image"><img src="images/head_portrait.jpg" alt="本站在线" /></span>
-					</div>
-					<a href="#one" class="goto-next scrolly">Next</a>
-				</section>
-
-			<!-- One -->
-				<section id="one" class="spotlight style1 bottom">
-					<span class="image fit main"><img src="images/pic001.jpg" alt="关于本站" /></span>
-					<div class="content">
-						<div class="container">
-							<div class="row">
-								<div class="4u 12u$(medium)">
-									<header>
-										<h2>关于</h2>
-										<p>本网站刚成立不久，可能有部分页面未完善</p>
-									</header>
+							<li class="nav-tab a_active waves-effect">
+								<a href="html/home.html" class="li-a active" target="iframe"><i class='bx bx-home-smile'></i> 主页
+									<span class="badge badge-pill badge-primary float-right">3</span>
+								</a>
+							</li>
+							<li class="nav-tab nav-ul">
+								<a href="javascript:void[0]" class="li-a" target="iframe"><i class='bx bx-layer'></i> 设备管理
+									<i class='bx bx-chevron-right' style="float: right;"></i></a>
+								<div class="nav-box">
+									<a href="html/device/2-1.html" class="li-a-a" target="iframe">当前能耗</a>
 								</div>
-								<div class="4u 12u$(medium)">
-									<p>公告：
-									<br />畅滑UI主题即将更新，请敬请期待
-									<br />3月16日
-									</p>
+							</li>
+							<li class="nav-tab nav-ul">
+								<a href="javascript:void[0]" class="li-a"><i class='bx bx-cog'></i> 维修保养
+									<i class='bx bx-chevron-right' style="float: right;"></i></a>
+								<div class="nav-box">
+									<a href="html/device/3-1.html" class="li-a-a" target="iframe">养护计划</a>
 								</div>
-								<div class="4u$ 12u$(medium)">
-									<p>本站起始
-									<br />本站成立于2021年
-									<br />微信公众号糖果城，并在为主题设计努力的路
-									<br />上。我们分享主题的资源，无门槛下
-                                    <br />载资源给你最佳的体验。
-                                    </p>
+							</li>
+							<li class="nav-tab nav-ul">
+								<a href="javascript:void[0]" class="li-a"><i class='bx bx-buildings'></i> 巡检管理
+									<i class='bx bx-chevron-right' style="float: right;"></i></a>
+								<div class="nav-box">
+									<a href="html/device/4-1.html" class="li-a-a" target="iframe">巡检计划</a>
 								</div>
-							</div>
-						</div>
-					</div>
-					<a href="#two" class="goto-next scrolly">Next</a>
-				</section>
-
-			<!-- Two -->
-				<section id="two" class="spotlight style2 right">
-					<span class="image fit main"><img src="images/pic002.jpg" alt="" /></span>
-					<div class="content">
-						<header>
-							<h2>糖果城day</h2>
-							<p>微信公众号搜索《糖果城day》</p>
-						</header>
-						<p>
-						墨冉的主题也是在这个公众号上架哦
-						<br />还有很多优秀的设计师呢！
-						<ul class="actions">
-							<li><a href="http://vfaner.com">点击关注</a></li>
+							</li>
+							<li class="nav-tab nav-ul">
+								<a href="javascript:void[0]" class="li-a"><i class='bx bx-edit'></i> 工单管理
+									<i class='bx bx-chevron-right' style="float: right;"></i></a>
+								<div class="nav-box">
+									<a href="html/device/5-1.html" class="li-a-a" target="iframe">维修计划</a>
+								</div>
+							</li>
 						</ul>
 					</div>
-					<a href="#three" class="goto-next scrolly">Next</a>
-				</section>
-
-			<!-- Three -->
-				<section id="three" class="spotlight style3 left">
-					<span class="image fit main bottom"><img src="images/pic003.jpg" alt="" /></span>
-					<div class="content">
-						<header>
-							<h2>教程</h2>
-							<p>全面的教程会在此网站发布。</p>
-						</header>
-						<p>如果有任何不明白的，可以点击教程自行参考学习，如果没有可以联系墨冉补充教程哦</p>
-						<ul class="actions">
-							<li><a href="http://vfaner.com">进入教程</a></li>
-						</ul>
-					</div>
-					<a href="#four" class="goto-next scrolly">Next</a>
-				</section>
-
-			<!-- Four -->
-				<section id="four" class="wrapper style1 special fade-up">
-					<div class="container">
-						<header class="major">
-							<h2>主题更新</h2>
-							<p>主题更新的内容会发布到此网站</p>
-						</header>
-						<div class="box alt">
-							<div class="row uniform">
-								<section class="4u 6u(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-area-chart"></span>
-									<h3>动漫视频网站</h3>
-									<p>在我的萌源码板块有几套视频模板，也是弹幕网的模板，在这里50/站，擦边球网站赚钱很快的。</p>
-								</section>
-								<section class="4u 6u$(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-comment"></span>
-									<h3>网站仿站</h3>
-									<p>难度不是很大的站，其实都是可以仿的吧，先看我有没有能力仿，可以再交易，主要是看类型</p>
-								</section>
-								<section class="4u$ 6u(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-flask"></span>
-									<h3>广告位出售</h3>
-									<p>权1小站，日pv1000，出售广告位，需要的联系萌站下边的QQ就可以了。首页40/月，文章页35/月，下载页30/月</p>
-								</section>
-					
-									
-					
-						</footer>
-					</div>
-				</section>
-
-			<!-- Five -->
-				<section id="five" class="wrapper style2 special fade">
-					<div class="container">
-						<header>
-							<h2>联系方式</h2>
-							<p>这里是我的联系方式呢.</p>
-						</header>
-						</div>
-		
-					<p>邮箱：2443810477@qq.com</p>
-				    <p>QQ：2443810477</p>
-                    <audio autoplay="autoplay"><source src="/mengzhan.mp3" type="audio/mpeg" /></audio>
-					</div>
-				</section>
-
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<!--<li><a href="http://vfaner.com" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>-->
-						
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Night. All rights reserved.</li><li>Design: <a href="http://url.4rxb.com/s/4d0250">Moran</a></li>
-						
-					</ul>
-				</footer>
-
+				</div>
+			</div>
+			<div class="nav-right" ref="navRight">
+				<div class="nav-top">
+					<button type="button" class="btn btn-primary btn-sm hiddenBtn" style="line-height: 10px;" @click="isShowLeft">
+						<i class="bx bx-grid-alt" style="font-size: 16px;"></i>
+					</button>
+					<!-- <button type="button" class="btn btn-primary btn-sm showBtn" style="line-height: 10px; display: none;" onclick="showNavRight">
+						<i class="bx bx-expand" style="font-size: 16px;"></i>
+					</button> -->
+				</div>
+				<div class="content-page" ref="cPage">
+					<iframe name="iframe" width="100%" height="100%" frameborder="0" src="html/home.html"></iframe>
+				</div>
+			</div>
 		</div>
+		<script src="js/vue.min.js"></script>
+		<script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				let navflag = false;
+				$('.nav-tab').click(function() {
+					$(this).siblings().each(function() {
+						$(this).removeClass('a_active');
+						// $(this).removeClass('a_active');
+						$(this).find('.nav-box').css('height', '0')
+						//关闭右侧箭头
+						if ($(this).attr('class').indexOf('nav-ul') != -1) {
+							$(this).find('.bx-chevron-right').css('transform', 'rotateZ(0deg)')
+							$(this).find('.bx-chevron-right').css('transition', 'all .5s')
+							$(this).removeClass('nav-show')
+							// $(this).find('div').removeClass('nav-box')
+						}
+					})
+					//当前选中
+					$(this).addClass('a_active')
+					$(this).find('.li-a').addClass('active')
+					// 打开右侧箭头
+					$(this).find('.bx-chevron-right').css('transform', 'rotateZ(90deg)')
+					$(this).find('.bx-chevron-right').css('transition', 'all .5s')
+					$(this).addClass('nav-show')
+					// $(this).find('div').addClass('nav-box')
+				})
+				/* 二级菜单a点击事件 */
+				$(".li-a-a").click(function() {
+					$(".li-a-a").each(function() {
+						$(this).removeClass('active-li-a');
+					})
+					$(this).addClass('active-li-a');
+				})
 
-		<!-- Scripts -->
-
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
+			})
+			const vue = new Vue({
+				el: '#app',
+				data: {
+					navLeftFlag: true
+				},
+				methods: {
+					isShowLeft() {
+						if (this.navLeftFlag ) {
+							this.$refs.navRight.style.paddingLeft = '0px'
+							this.$refs.cPage.style.left = '0px';
+							this.navLeftFlag = false;
+							// this.$refs.navLeft.style.width = '0px';
+							// setTimeout(()=>{
+							// 	this.navLeftFlag = false;
+							// },200)
+						} else {
+							this.$refs.navRight.style.paddingLeft = '240px';
+							this.$refs.cPage.style.left = '240px';
+							this.navLeftFlag = true;
+							// this.$refs.navLeft.style.width = '240px';
+							// setTimeout(()=>{
+							// 	this.navLeftFlag = true;
+							// },200)
+						}
+					}
+				}
+			})
+		</script>
 	</body>
+</html>

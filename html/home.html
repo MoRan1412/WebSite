@@ -1,28 +1,97 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-		<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-		<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
-		<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
-		<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-		<title>主页</title>
-		<link rel="stylesheet" type="text/css" href="../css/page.css" />
-	</head>
-	<body>
-		<div class="container">
-			<div class="card">
-				<div class="card-header">
-					<div style="margin: 50px auto;text-align: center;color: rgb(188, 79, 243);"><h1><B>糖果城day成员</B></h1><br>
-					<h2>墨冉</h2>
-				<br>
+
+<head>
+	<title>Home</title>
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content=""
+	/>
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- //Meta Tags -->
+	<!-- Custom Theme files -->
+	<link href="../css/font-awesome.css" rel="stylesheet">
+	<!--// Font-Awesome-CSS -->
+	<link href="../css/style.css" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="../css/jquery.countdown.css" />	<!-- Countdown-CSS -->
+	<!--fonts-->
+	<link href="http://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	<!--//fonts-->
+</head>
+
+<body>
+	<!--background-->
+	<div class="ban-head">
+		<h2>微信公众号</h2>
+		<h1>糖果城</h1>
+		<p>墨冉开发网站</p>
+	</div>
+	<div class="clear"></div>
+	<!--//background-->
+	<!--timer-->
+				<div class="examples">
+							<div class="clear"></div>
+				</div>
+					<!--//timer-->
+				<div class="agileinfo-grids">
+			<!--//newsletter-->
+						<div class="agileinfo-social-grids">
+							<img src="../images/640.gif" style="width: 15em;">
+					</div>	
+				<div class="clear"></div>
+				</div>	
+				<div class="w3layouts_copy_right">
+					<div class="container">
+						<p>Copyright &copy; 2021.Company 墨冉 All rights reserved.<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=-t4TxinucWEBneoag16Y0jvtzR3SrpAq&jump_from=webapi">加入QQ群</a></p>
+					</div>
 				</div>
 			</div>
-				<div class="card-body"><img src="../images/640.gif" style="border-radius: 5px;width: 20%;margin: 0 auto;"></div> 
-				<div class="card-footer">底部</div>
-			  </div>
-		</div>
-		</body>
-	</body>
+<!-- //footer -->
+
+</body>
+					
+<!-- js -->
+<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+		<!-- /count down js -->
+			<script src="../js/simplyCountdown.js"></script>
+			<script>
+				var d = new Date(new Date().getTime() + 948 * 120 * 120 * 2000);
+
+				// default example
+				simplyCountdown('.simply-countdown-one', {
+					year: d.getFullYear(),
+					month: d.getMonth() + 1,
+					day: d.getDate()
+				});
+
+				// inline example
+				simplyCountdown('.simply-countdown-inline', {
+					year: d.getFullYear(),
+					month: d.getMonth() + 1,
+					day: d.getDate(),
+					inline: true
+				});
+
+				//jQuery example
+				$('#simply-countdown-losange').simplyCountdown({
+					year: d.getFullYear(),
+					month: d.getMonth() + 1,
+					day: d.getDate(),
+					enableUtc: false
+				});
+			</script>
+		<!-- //Countdown-Timer-JavaScript -->
+<!--//scripts--> 
+
 </html>

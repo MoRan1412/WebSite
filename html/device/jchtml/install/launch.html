@@ -10,6 +10,20 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
   <link rel="stylesheet" href="../../../../css/bootstrap.min.css" />
   <link rel="stylesheet" href="../../../../css/templatemo-style.css" />
+  <link rel="stylesheet" type="text/css" href="preview.css" />
+  <style>
+    .content {
+        width: 640px;
+        padding: 20px;
+        margin: 20px auto;
+        border: 1px solid #DDDDDD;
+    }
+    
+    .content img {
+        width: 100px;
+        height: 100px;
+    }
+</style>
 </head>
 
 <body>
@@ -73,9 +87,25 @@
                 </ol>
               </li>
             </ul>
+            <p>
+              图片教程
+              <a href="javascript:;" class="zoomImgshow">
+                <div class="zoomImgBox">
+              <img style="width: 100%;" class="zoomImg" src="../img/launcher/0.png" alt=""/>
+              <img style="width: 100%;" class="zoomImg" src="../img/launcher/1.png" alt=""/>
+              <img style="width: 100%;" class="zoomImg" src="../img/launcher/2.png" alt=""/>
+              <img style="width: 100%;" class="zoomImg" src="../img/launcher/3.png" alt=""/>
+              <img style="width: 100%;" class="zoomImg" src="../img/launcher/4.png" alt=""/>
+              <img style="width: 100%;" class="zoomImg" src="../img/launcher/5.png" alt=""/>
+              <img style="width: 100%;" class="zoomImg" src="../img/launcher/6.png" alt=""/>
+              <img style="width: 100%;" class="zoomImg" src="../img/launcher/7.png" alt=""/>
+            </div>
+            </a>
+          </p>
           </p>
         </div>
       </div>
+      
     </section>
 
     <footer>
@@ -83,6 +113,12 @@
       <span></span>
     </footer>
   </div>
+  <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+        <script src="preview.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript">
+            showZoomImg('.zoomImg', 'img');
+            showZoomImg('.zoomImgshow', 'text');
+        </script>
 </body>
 
 </html>

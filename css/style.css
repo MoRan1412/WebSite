@@ -256,18 +256,18 @@ body a {
 }
 .ban-head h2 {
     font-size: 2em;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     letter-spacing: 2px;
 }
 .ban-head h1 {
     font-size: 4em;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     letter-spacing: 20px;
 	font-family: 'Permanent Marker', cursive;
 }
 .ban-head p {
     font-size: 1.5em;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 /*--//banner--*/
 /*-- Countdown-Timer --*/
@@ -449,17 +449,17 @@ button:hover {
 	border-top:none;
 }
 .w3layouts_copy_right p {
-    color: #000000;
+    color: #ffffff;
     line-height: 2em;
     font-size: 16px;
 	 margin: 2em 0;
 }
 .w3layouts_copy_right p a{
-	color:#5121ff;
+	color:#79d4ff;
 	text-decoration:none;
 }
 .w3layouts_copy_right p a:hover{
-	color:rgb(0, 0, 0);
+	color:rgb(159, 73, 240);
 }
 /*-- //footer --*/
 /*-- /responsive design --*/

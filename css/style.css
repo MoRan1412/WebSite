@@ -13,7 +13,7 @@ body{
     background-size: cover;
 }
 @media only screen and (min-width: 800px) {
-header{
+nav{
     background-color: rgba(255, 255, 255,0);
     border-radius: 20px;
     width: 95%;
@@ -26,33 +26,33 @@ header{
 	-ms-transition: 0.5s;
 	-o-transition: 0.5s;
 }
-header:hover{
+nav:hover{
     background-color: rgba(255, 255, 255,0.8);
 }
 }
-header ul{
+nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
-header ul li{
+nav ul li{
     float: right;
 }
-header ul li a{
+nav ul li a{
     display: block;
     color: rgba(0, 0, 0,0.5);
     text-align: center;
     padding: 30px;
     text-decoration: none;
 }
-header ul li a:hover{
+nav ul li a:hover{
     color: #ffcc00;
 }
-header ul li a.active{
+nav ul li a.active{
     color: #ffcc00;
 }
-header img{
+nav img{
     display: block;
     margin: 14%;
     width: 15%;
@@ -72,13 +72,15 @@ div.hs img{
 div.hs img:hover{
     transform: rotate(360deg);
 }
-div.wz p{
+div.wz{
     background-color: rgba(255, 255, 255,0.8);
     width: 25%;
-    height: 25px;
-    border-radius: 20px;
+    min-width: 300px;
+    height: 5.5%;
+    min-height: 53px;
+    border-radius: 13px;
     text-align: center;
-    padding: 18px;
+    padding: 1px;
     position: absolute;
     top: 250px;
     left: 0px;
@@ -88,15 +90,15 @@ div.wz p{
     transition: 0.5s;
     cursor: url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/cursor/texto.cur), auto
 }
-div.wz p:hover{
+div.wz:hover{
     color: #ffcc00;
 }
 div.bgqh img.m1{
-    width: 37px;
-    height: 37px;
+    width: 18px;
+    height: 18px;
     background-color: rgba(255, 255, 255,0.8);
     border-radius: 14px;
-    padding: 1px;
+    padding: 10px;
     margin: auto;
     position: absolute;
     left: 0px;
@@ -105,11 +107,11 @@ div.bgqh img.m1{
     bottom: 0px;
 }
 div.bgqh img.m2{
-    width: 37px;
-    height: 37px;
+    width: 18px;
+    height: 18px;
     background-color: rgba(255, 255, 255,0.8);
     border-radius: 14px;
-    padding: 1px;
+    padding: 10px;
     margin: auto;
     position: absolute;
     left: 50px;

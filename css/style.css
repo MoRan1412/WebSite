@@ -1,119 +1,130 @@
 html,body{
-    cursor: url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/cursor/normal.cur), auto
-}
-body{
-    background-image: url(../img/p0.jpg);
-    background-position: center;
-    top: 0px;
-    width: 100%;
-    height: 100vh;
-    margin: 0 auto;
-    background-repeat: no-repeat;
+    cursor: url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/cursor/normal.cur), auto;
+    margin: 0;
+    padding: 0;
     overflow: auto;
-    background-size: cover;
+}
+.bg{
+    width: 100%;
+    height: 1024px;
+	background-image:url(https://i.pinimg.com/originals/58/d3/51/58d3510ef1dc4fbc431b9652d2b8944b.jpg);
+	background-position:center;
+    margin: 0 auto;
+	background-size:cover;
+    position: absolute;
+    top: 0px;
+	border-radius: 0px 0px 20px 20px;
 }
 nav{
-    background-color: rgba(255, 255, 255,0);
-    border-radius: 20px;
     width: 95%;
-    position: relative;
-    left: 2.5%;
-    top: 25px;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-	-moz-transition: 0.5s;
-	-ms-transition: 0.5s;
-	-o-transition: 0.5s;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0 auto;
+    border-radius: 20px;
+	position: fixed;
+	top: 30px;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	transition-property: backgrund-color;
+	transition: 0.5s;
 }
 nav:hover{
-    background-color: rgba(255, 255, 255,0.8);
+	background-color: rgba(255, 255, 255, 0.668);
+	transition: all 0.5s;
 }
-nav ul{
+@media screen  and (max-width: 800px) {
+	nav{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(120,120,120,1.00);
+    margin: 0 auto;
+    border-radius: 0px;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	}
+	nav .tab ul li{
+		width: 100%;
+	}
+	nav .onoff{
+		display: block;
+	}
+	nav .tab ul li a{
+		color: white;
+	}
+}
+@media screen  and (min-width: 800px) {
+	nav .onoff{
+		display: none;
+	}
+}
+nav .onoff{
+	width: 50px;
+	height: 50px;
+	background-color: blueviolet;
+	position: fixed;
+	right: 0;
+}
+nav .tab ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
-nav ul li{
+nav .tab ul li{
     float: right;
-}
-nav ul li a{
-    display: block;
-    color: rgba(0, 0, 0,0.5);
+    display: inline;
     text-align: center;
-    padding: 30px;
+}
+nav .tab ul li a{
+    display: block;
+    padding: 39.5px;
+    font-size: 16px;
     text-decoration: none;
+    color: grey;
 }
-nav ul li a:hover{
-    color: #ffcc00;
+nav .tab ul li a:hover{
+	color:yellow;
 }
-nav ul li a.active{
-    color: #ffcc00;
+.homedata{
+    width: 50%;
+    height: 500px;
+    position: relative;
+	top:200px;
+    margin: 0 auto;
 }
-nav img{
-    display: block;
-    margin: 14%;
-    width: 15%;
+.homedata div{
+    margin: 0 auto;
 }
-div.hs img{
-    border-radius: 100%;
+.homedata .headshot{
     width: 140px;
-    box-shadow: 0px 0px 0px 5px rgba(0, 0, 0,0.3);
+    height: 140px;
+	border-radius:10000px;
+	background-image: url(http://5b0988e595225.cdn.sohucs.com/images/20190327/2755dd23e40b44f8ac433c2d51844930.jpeg);
+	background-size: cover;
+	box-shadow:0px 0px 0px 5px rgba(255,255,255,0.500);
+}
+.homedata .headshot:hover{
+	transform: rotate(360deg);
+	transition: all 1.5s;
+}
+.home_meassage{
+	padding: 3px;
+	border-radius: 15px;
+	background-color: rgba(255,255,255,0.69);
+	text-align:center;
+	max-width: 400px;
+}
+.homedata .mg{
+	margin-top: 200px;
+}
+.homedata .mg div{
+	margin-top: 20px;
+}
+.homedata2{
     position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    margin: auto;
-    transition: 1s;
-}
-div.hs img:hover{
-    transform: rotate(360deg);
-}
-div.wz{
-    background-color: rgba(255, 255, 255,0.8);
-    width: 25%;
-    min-width: 300px;
-    height: 5.5%;
-    min-height: 53px;
-    border-radius: 13px;
-    text-align: center;
-    padding: 1px;
-    position: absolute;
-    top: 250px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    margin: auto;
-    transition: 0.5s;
-    cursor: url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/cursor/texto.cur), auto
-}
-div.wz:hover{
-    color: #ffcc00;
-}
-div.bgqh img.m1{
-    width: 18px;
-    height: 18px;
-    background-color: rgba(255, 255, 255,0.8);
-    border-radius: 14px;
-    padding: 10px;
-    margin: auto;
-    position: absolute;
-    left: 0px;
-    right: 50px;
-    top: 400px;
-    bottom: 0px;
-}
-div.bgqh img.m2{
-    width: 18px;
-    height: 18px;
-    background-color: rgba(255, 255, 255,0.8);
-    border-radius: 14px;
-    padding: 10px;
-    margin: auto;
-    position: absolute;
-    left: 50px;
-    right: 0px;
-    top: 400px;
-    bottom: 0px;
+    top: 1024px;
+    width: 100%;
+    height: 500px;
+    background-color: #FFFFFF;
 }

@@ -3,11 +3,12 @@ html,body{
     margin: 0;
     padding: 0;
     overflow: auto;
+    background-color: rgb(233, 233, 233);
 }
 .bg{
     width: 100%;
     height: 1024px;
-	background-image:url(https://i.pinimg.com/originals/58/d3/51/58d3510ef1dc4fbc431b9652d2b8944b.jpg);
+	background-image:url(../img/p0.jpg);
 	background-position:center;
     margin: 0 auto;
 	background-size:cover;
@@ -101,10 +102,10 @@ nav .tab ul li a:hover{
     margin: 0 auto;
 }
 .homedata .headshot{
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
 	border-radius:10000px;
-	background-image: url(http://5b0988e595225.cdn.sohucs.com/images/20190327/2755dd23e40b44f8ac433c2d51844930.jpeg);
+	background-image: url(https://img.zcool.cn/community/031fcf25f0d3d04a801215aa02cf87c.jpg@160w_160h_1c_1e_1o_100sh.jpg);
 	background-size: cover;
 	box-shadow:0px 0px 0px 5px rgba(255,255,255,0.500);
     transition: transform 1.5s;
@@ -126,10 +127,37 @@ nav .tab ul li a:hover{
 .homedata .mg div{
 	margin-top: 20px;
 }
-.homedata2{
+.homedata2bg{
     position: absolute;
     top: 1024px;
     width: 100%;
-    height: 500px;
-    background-color: #FFFFFF;
+    height: 980px;
+    text-align: center;
+}
+.homedata2{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 90%;
+    height: 800px;
+    background-color: rosybrown;
+}
+.homedata2 .homedata2_meassage{
+    margin: 0 auto;
+    width: 80%;
+}
+.homedata2_meassage h1{
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    font-weight: bold;
+    padding: 15px 0px 10px 0px;
+    color: rgb(83, 83, 83);
+}
+.homedata2_meassage hr{
+    border: none;
+    border-top: 2px solid rgb(110, 110, 110);
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 100px;
 }

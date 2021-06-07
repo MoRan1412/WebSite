@@ -183,6 +183,7 @@ nav .tab ul li a:hover{
 .homedata2 .homedata2_meassage{
     margin: 0 auto;
     width: 55%;
+    min-width: 400px;
 }
 .homedata2_meassage h1{
     font-size: 19px;
@@ -206,6 +207,7 @@ nav .tab ul li a:hover{
 	margin: 0 auto;
 	margin-top: 70px;
 	width: 50%;
+    min-width: 400px;
 	height: 80px;
     display: flex;
 }

@@ -3,7 +3,22 @@ html,body{
     margin: 0;
     padding: 0;
     overflow: auto;
-    background-color: rgb(233, 233, 233);
+    background-color: white;
+}
+h1{
+    font-family: monospace;
+	font-weight: bold;
+}
+p{
+    font-family: fangsong;
+	font-weight: bold;
+}
+a{
+    font-family: "Noto Sans TC";
+}
+::selection{
+    background-color: rgb(73, 73, 73);
+    color: white;
 }
 .bg{
     width: 100%;
@@ -31,7 +46,7 @@ nav{
 	transition: 0.5s;
 }
 nav:hover{
-	background-color: rgba(255, 255, 255, 0.668);
+	background-color: rgba(255, 255, 255, 0.815);
 	transition: 0.5s;
 }
 nav .tab ul{
@@ -46,10 +61,11 @@ nav .tab ul li{
 }
 nav .tab ul li a{
     display: block;
-    padding: 39.5px;
-    font-size: 16px;
+    padding: 39px;
+    font-size: 17px;
     text-decoration: none;
     color: gray;
+    font-weight: bold;
 }
 nav .tab ul li a:hover{
 	color:yellow;
@@ -108,24 +124,48 @@ nav .tab ul li a:hover{
 	background-image: url(https://img.zcool.cn/community/031fcf25f0d3d04a801215aa02cf87c.jpg@160w_160h_1c_1e_1o_100sh.jpg);
 	background-size: cover;
 	box-shadow:0px 0px 0px 5px rgba(255,255,255,0.500);
-    transition: transform 1.5s;
+    transition: 1.5s;
 }
 .homedata .headshot:hover{
 	transform: rotate(360deg);
 	transition: all 1.5s;
 }
 .home_meassage{
-	padding: 3px;
-	border-radius: 15px;
+	padding: 2px;
+	border-radius: 100px;
 	background-color: rgba(255,255,255,0.69);
 	text-align:center;
-	max-width: 400px;
+	max-width: 450px;
+    transition: all 1s;
+}
+.home_meassage:hover{
+    color: rgb(170, 66, 255);
+    transition: color 1s;
 }
 .homedata .mg{
 	margin-top: 200px;
 }
 .homedata .mg div{
 	margin-top: 20px;
+}
+.contactme{
+    text-align: center;
+}
+.contactme ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+.contactme ul li{
+    display: inline;
+    padding: 5px;
+}
+.contactme ul li img{
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.69);
+    border-radius: 100px;
 }
 .homedata2bg{
     position: absolute;
@@ -136,28 +176,74 @@ nav .tab ul li a:hover{
 }
 .homedata2{
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 70px;
     width: 90%;
     height: 800px;
-    background-color: rosybrown;
 }
 .homedata2 .homedata2_meassage{
     margin: 0 auto;
-    width: 80%;
+    width: 55%;
 }
 .homedata2_meassage h1{
-    font-size: 20px;
-    margin: 0 auto;
-    padding: 0;
-    text-align: left;
-    font-weight: bold;
+    font-size: 19px;
+    margin-left: 4px;
     padding: 15px 0px 10px 0px;
-    color: rgb(83, 83, 83);
+    color: rgb(0, 0, 0);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
 }
 .homedata2_meassage hr{
     border: none;
-    border-top: 2px solid rgb(110, 110, 110);
+    border-top: 4px dashed rgba(0, 0, 0, 0.123);
     margin: 0 auto;
     padding: 0;
     border-radius: 100px;
 }
+.homenews{
+	border-radius: 100px;
+	border: solid 0.5px #00000036;
+	margin: 0 auto;
+	margin-top: 70px;
+	width: 50%;
+	height: 80px;
+    display: flex;
+}
+.notice_icon{
+    height: 100%;
+    width: 80px;
+    background-image: url(../icons/notice.png);
+    opacity: 0.5;
+    background-size: cover;
+}
+.homenews p{
+    padding: 0;
+    height: 100%;
+    margin: 0;
+}
+.theme_icon{
+    height: 24px;
+    width: 24px;
+    background-image: url(../icons/theme.png);
+    opacity: 1;
+    background-size: cover;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.topic{
+    display: flex;
+    padding: 15px 0px 15px 0px;
+}
+/*
+* Noto Sans TC (Chinese_traditional) http://www.google.com/fonts/earlyaccess
+ */
+ @font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 100;
+    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff2) format('woff2'),
+         url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff) format('woff'),
+         url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.otf) format('opentype');
+  }
+   /*

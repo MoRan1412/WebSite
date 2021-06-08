@@ -261,7 +261,7 @@ nav .tab ul li a:hover{
     margin: 20px 0px 0px 0px;
     padding: 0;
 }
-.artical .articalimg{
+.articalimg{
     width: 0px;
     min-width: 55%;
     height: 100%;
@@ -270,21 +270,11 @@ nav .tab ul li a:hover{
     background-color: black;
     background-position-x: center;
     background-position-y: center;
-    background-repeat: no-repeat;
     transition: background-size 1s;
+
 }
 .artical2 .articalimg{
     float: right;
-    width: 0px;
-    min-width: 55%;
-    height: 100%;
-    border-radius: 12px;
-    background-size: auto 100%, cover;
-    background-color: black;
-    background-position-x: center;
-    background-position-y: center;
-    background-repeat: no-repeat;
-    transition: background-size 1s;
 }
 .artical .articalimg:hover,.artical2 .articalimg:hover{
     background-size: auto 120%, cover;

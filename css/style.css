@@ -120,7 +120,7 @@ nav .tab ul li a:hover{
 .homedata{
     height: 500px;
     position: relative;
-	top:200px;
+    top:200px;
     margin: 0 auto;
 }
 .homedata div{
@@ -144,7 +144,7 @@ nav .tab ul li a:hover{
 	border-radius: 100px;
 	background-color: rgba(255,255,255,0.69);
 	text-align:center;
-    transition: all 1s;
+        transition: all 1s;
 }
 .home_meassage:hover{
     color: rgb(170, 66, 255);
@@ -169,7 +169,7 @@ nav .tab ul li a:hover{
     padding: 5px;
 }
 .contactme ul li img{
-    width: 10%;
+    width: 5%;
     padding: 10px;
     background-color: rgba(255,255,255,0.69);
     border-radius: 100px;

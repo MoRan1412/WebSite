@@ -266,7 +266,7 @@ nav .tab ul li a:hover{
     min-width: 55%;
     height: 100%;
     border-radius: 12px;
-    background-size: auto 100%;
+    background-size: auto 100%, cover;
     background-color: black;
     background-position-x: center;
     background-position-y: center;
@@ -279,7 +279,7 @@ nav .tab ul li a:hover{
     min-width: 55%;
     height: 100%;
     border-radius: 12px;
-    background-size: auto 100%;
+    background-size: auto 100%, cover;
     background-color: black;
     background-position-x: center;
     background-position-y: center;
@@ -287,7 +287,7 @@ nav .tab ul li a:hover{
     transition: background-size 1s;
 }
 .artical .articalimg:hover,.artical2 .articalimg:hover{
-    background-size: auto 120%;
+    background-size: auto 120%, cover;
     transition: 1s;
 }
 @media screen  and (max-width: 720px) {
@@ -306,10 +306,10 @@ nav .tab ul li a:hover{
     .artical .articalimg,.artical2 .articalimg{
         width: 100%;
         height: 50%;
-        background-size: 100% auto;
+        background-size: 100% auto, cover;
     }
     .artical .articalimg:hover,.artical2 .articalimg:hover{
-        background-size: 120% auto;
+        background-size: 120% auto, cover;
     }
     .homedatalist .artical,.homedatalist .artical2{
         height: 500px;

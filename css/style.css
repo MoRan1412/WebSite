@@ -170,7 +170,7 @@ nav .tab ul li a:hover{
 }
 .contactme ul li img{
     width: 5%;
-    padding: 2%;
+    padding: 10px;
     background-color: rgba(255,255,255,0.69);
     border-radius: 100px;
 }
@@ -303,6 +303,9 @@ nav .tab ul li a:hover{
     .homedatalist .artical,.homedatalist .artical2{
         height: 500px;
     }
+    .contactme ul li img{
+        width: 5%;
+    }
 }
 @media screen  and (min-width: 720px) {
 	.menu{
@@ -315,6 +318,9 @@ nav .tab ul li a:hover{
     .homedata{
         width: 20%;
         min-width: 504px;
+    }
+    .contactme ul li img{
+        min-width: 10px;
     }
 }
 #artimg1{

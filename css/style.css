@@ -342,6 +342,11 @@ nav .tab ul li a:hover{
     background-size: 200px;
     position: fixed;
     top: 0px;
-    opacity: 0.3;
     z-index: 0;
+}
+.ppt{
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 80%;
+    height: 800px;
 }

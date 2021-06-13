@@ -52,6 +52,7 @@ nav .tab ul{
     padding: 0;
     background-color: rgba(255, 255, 255, 0);
     border-radius: 10px;
+	z-index: 15
 }
 nav .tab ul{
     transition: background-color 0.5s;
@@ -166,7 +167,7 @@ nav .tab ul li a:hover{
     transition: all 1s;
 }
 .home_meassage:hover{
-    color: rgb(170, 66, 255);
+    color: rgb(255, 187, 207);
     transition: color 1s;
 }
 .homedata .mg{
@@ -394,9 +395,23 @@ nav .tab ul li a:hover{
     background-color: white;
 }
 .topdata{
+	position: absolute;
+	z-index: 0;
     width: 100%;
-    background-image: url(https://w.wallhaven.cc/full/13/wallhaven-13j919.jpg);
+    filter: brightness(0.8);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+#top1{
+    background-image: url(../img/topbj/01.jpg);
+}
+#top2{
+    background-image: url(../img/topbj/02.jpg);
+}
+#top3{
+    background-image: url(../img/topbj/01.jpg);
+}
+.topdatabj .topdata p{
+	color: white;
 }

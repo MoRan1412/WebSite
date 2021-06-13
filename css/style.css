@@ -307,10 +307,6 @@ nav .tab ul li a:hover{
     .homedatalist .artical,.homedatalist .artical2{
         height: 500px;
     }
-    .pdf{
-        width: 100%;
-        height: 100%;
-    }
 }
 @media screen  and (min-width: 720px) {
 	.menu{
@@ -337,16 +333,19 @@ nav .tab ul li a:hover{
 .bg2{
     width: 100%;
     height: 100%;
-	background-image:url(https://lh3.googleusercontent.com/proxy/HKPAzZ2XxjB6oSP0uCclJqqWASRO-oe9yeKy1k9rR04Y_oWT8YV96g9-YmspWNfiQsVGtdYAcQLR5lg9m5WAARmEF2AGnHgW1NroxeewAXXs4kgjaNPs0w);
+	background-image:url(../img/bj.png);
     margin: 0 auto;
     background-size: 200px;
     position: fixed;
     top: 0px;
     z-index: 0;
+    overflow-y: scroll;
 }
 .ppt{
+    position: relative;
     margin: 0 auto;
-    margin-top: 150px;
+    top: 150px;
     width: 80%;
-    height: 800px;
+    height: 885px;
+    padding-bottom: 50px;
 }

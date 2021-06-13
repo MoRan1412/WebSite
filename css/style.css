@@ -43,7 +43,7 @@ a{
 .bg{
     width: 100%;
     height: 1024px;
-	background-image:url(../img/p0.jpg);
+	background-image:url(../img/bg/p0.jpg);
 	background-position:center;
     margin: 0 auto;
 	background-size:cover;
@@ -83,8 +83,7 @@ nav .tab ul li a{
     padding: 39px;
     font-size: 17px;
     text-decoration: none;
-    color: gray;
-    font-weight: bold;
+    color: rgb(71, 71, 71);
     transition: color 0.3s;
 }
 nav .tab ul li a:hover{
@@ -114,11 +113,10 @@ nav .tab ul li a:hover{
     text-decoration: none;
     font-size: 15px;
     background-color: rgba(78, 78, 78, 0.562);
-    transition: font-size 0.5s;
+    transition: 0.5s;
 }
 .menu ul li a:hover{
     color: sandybrown;
-    font-size: 20px;
     transition: 0.5s;
 }
 .homedata{
@@ -174,7 +172,7 @@ nav .tab ul li a:hover{
 }
 .contactme ul li img{
     width: 5%;
-    padding: 2%;
+    padding: 10px;
     background-color: rgba(255,255,255,0.69);
     border-radius: 100px;
 }
@@ -307,6 +305,15 @@ nav .tab ul li a:hover{
     .homedatalist .artical,.homedatalist .artical2{
         height: 500px;
     }
+    iframe{
+        height: 200px;
+    }
+    .topdatabj{
+        height: 60px;
+    }
+    .topdata{
+        height: 280px;
+    }
 }
 @media screen  and (min-width: 720px) {
 	.menu{
@@ -320,20 +327,26 @@ nav .tab ul li a:hover{
         width: 20%;
         min-width: 504px;
     }
+    .topdatabj{
+        height: 150px;
+    }
+    .topdata{
+        height: 400px;
+    }
 }
 #artimg1{
-    background-image: url(../img/p3.jpg);
+    background-image: url(../img/bg/p1.jpg);
 }
 #artimg2{
-    background-image: url(../img/p0.jpg);
+    background-image: url(../img/bg/p0.jpg);
 }
 #artimg3{
-    background-image: url(../img/p2.jpg);
+    background-image: url(../img/bg/p2.jpg);
 }
 .bg2{
     width: 100%;
     height: 100%;
-	background-image:url(../img/bj.png);
+	background-image:url(../img/bg/bj.png);
     margin: 0 auto;
     background-size: 200px;
     position: fixed;
@@ -342,10 +355,29 @@ nav .tab ul li a:hover{
     overflow-y: scroll;
 }
 .ppt{
-    position: relative;
+    position: absolute;
     margin: 0 auto;
-    top: 150px;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    display: none;
+}
+.ppt iframe{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
     width: 80%;
     height: 885px;
-    padding-bottom: 50px;
+}
+.topdatabj{
+    width: 100%;
+    background-color: white;
+}
+.topdata{
+    width: 100%;
+    background-image: url(https://w.wallhaven.cc/full/g7/wallhaven-g75el3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }

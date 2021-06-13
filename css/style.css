@@ -332,6 +332,11 @@ nav .tab ul li a:hover{
     .topdata{
         height: 340px;
     }
+    .toptitle p{
+        height:340px; 
+        line-height:340px; 
+        top: 0px;
+    }
 }
 @media screen  and (min-width: 720px) {
 	.menu{
@@ -350,6 +355,11 @@ nav .tab ul li a:hover{
     }
     .topdata{
         height: 400px;
+    }
+    .toptitle p{
+        height:400px; 
+        line-height:400px; 
+        top: 120px;
     }
 }
 #artimg1{
@@ -395,13 +405,12 @@ nav .tab ul li a:hover{
     background-color: white;
 }
 .topdata{
-	position: absolute;
 	z-index: 0;
     width: 100%;
-    filter: brightness(0.8);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    filter: brightness(0.7);
 }
 #top1{
     background-image: url(../img/topbj/01.jpg);
@@ -412,6 +421,18 @@ nav .tab ul li a:hover{
 #top3{
     background-image: url(../img/topbj/01.jpg);
 }
-.topdatabj .topdata p{
+.toptitle p{
 	color: white;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width:100%;
+    font-size: 45px;
+    position: absolute;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }

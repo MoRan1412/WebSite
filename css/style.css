@@ -6,13 +6,7 @@ html,body{
     background-color: white;
     overflow-x: hidden;
 }
-h1{
-    font-family: 'ZCOOL KuaiLe', cursive;
-}
-p{
-    font-family: 'Noto Sans TC', sans-serif;
-}
-a{
+h1,p,a{
     font-family: 'Noto Serif SC', serif;
 }
 ::selection{
@@ -26,6 +20,14 @@ a{
 ::-webkit-scrollbar-thumb{
     background-color: rgba(78, 78, 78, 0.562);
     border-radius: 100px;
+}
+.homenews p,.topic embed,.homenews embed{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .bg{
     width: 100%;
@@ -177,16 +179,15 @@ nav .tab ul li a:hover div{
     border-radius: 100px;
 }
 .homedata2bg{
-    position: absolute;
-    top: 1024px;
+    margin-top: 1024px;
     width: 100%;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .homedata2{
     margin: 0 auto;
     height: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 .homedata2 .homedata2_meassage{
     margin: 0 auto;
@@ -215,44 +216,50 @@ nav .tab ul li a:hover div{
 	width: 100%;
 	height: 65px;
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 .notice_icon{
-    height: 100%;
     width: 65px;
-    background-image: url(../icons/notice.png);
+    height: 100%;
     opacity: 0.5;
     background-size: cover;
 }
+.notice_icon embed{
+    width: 20px;
+    height: 65px;
+    line-height: 65px;
+    overflow: hidden;
+}
 .homenews p{
+    line-height: 65px;
+    overflow: hidden;
     padding: 0;
     margin: 0 auto;
-    margin-top: 22px;
-    color: #00000062;
+    color: #00000088;
     font-size: 16px;
-    font-family: "Noto Sans TC";
-    font-weight: 510;
-}
-.theme_icon{
-    height: 24px;
-    width: 24px;
-    background-image: url(../icons/theme.png);
-    opacity: 1;
-    background-size: cover;
-    padding: 0;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 .topic{
     display: flex;
-    padding: 15px 0px 15px 0px;
+    padding: 30px 0px 15px 0px;
+}
+.theme_icon{
+    width: 15px;
+    opacity: 1;
+    padding: 0;
+}
+.topic h1{
+    line-height: 15px;
+    overflow: hidden;
+    font-size: 16px;
+    padding: 0;
+    color: rgb(97, 97, 97);
 }
 .homedatalist{
     margin: 0 auto;
     padding: 0;
     width: 100%;
 }
-.homedatalist .artical,.homedatalist .artical2{
+.homedatalist #artical,.homedatalist #artical2{
     width: 100%;
     height: 300px;
     background-color: rgb(255, 255, 255);
@@ -274,10 +281,10 @@ nav .tab ul li a:hover div{
     transition: background-size 1s;
 
 }
-.artical2 .articalimg{
+#artical2 .articalimg{
     float: right;
 }
-.artical .articalimg:hover,.artical2 .articalimg:hover{
+#artical .articalimg:hover,#artical2 .articalimg:hover{
     background-size: auto 120%, cover;
     transition: 1s;
 }
@@ -288,60 +295,35 @@ nav .tab ul li a:hover div{
     ::-webkit-scrollbar{
         width: 0;
     }
-    .homedata2{
+    .homedata2,.mdata{
         width: 90%;
     }
     .homedata{
         width: 70%;
     }
-    .artical .articalimg,.artical2 .articalimg{
+    #artical .articalimg,#artical2 .articalimg{
         width: 100%;
-        height: 50%;
+        height: 49%;
         background-size: 100% auto, cover;
     }
-    .artical .articalimg:hover,.artical2 .articalimg:hover{
+    #artical .articalimg:hover,#artical2 .articalimg:hover{
         background-size: 120% auto, cover;
     }
-    .homedatalist .artical,.homedatalist .artical2{
-        height: 500px;
-    }
-    iframe{
-        height: 200px;
-    }
-    .topdatabj{
-        height: 0px;
-    }
-    .topdata{
-        height: 340px;
-    }
-    .toptitle p{
-        height:340px; 
-        line-height:340px; 
-        top: 0px;
+    .homedatalist #artical,.homedatalist #artical2{
+        height: 400px;
     }
 }
 @media screen  and (min-width: 720px) {
 	.menu{
 		display: none;
 	}
-    .homedata2{
+    .homedata2,.mdata{
         width: 40%;
         min-width: 640px;
     }
     .homedata{
         width: 20%;
         min-width: 504px;
-    }
-    .topdatabj{
-        height: 120px;
-    }
-    .topdata{
-        height: 400px;
-    }
-    .toptitle p{
-        height:400px; 
-        line-height:400px; 
-        top: 120px;
     }
     .contactme ul li img{
         max-width: 25px;
@@ -360,53 +342,38 @@ nav .tab ul li a:hover div{
     width: 100%;
     height: 100%;
 	background-image:url(../img/bg/bj.png);
+    background-repeat: repeat;
     margin: 0 auto;
-    background-size: 200px;
     position: fixed;
-    top: 0px;
+    background-size: 200px;
     z-index: 0;
     overflow-y: scroll;
 }
-.topdatabj{
-    width: 100%;
-    background-color: white;
-}
-.topdata{
-	z-index: 0;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    filter: brightness(0.7);
-}
-#top1{
-    background-image: url(../img/topbj/01.jpg);
-}
-#top2{
-    background-image: url(../img/topbj/02.jpg);
-}
-#top3{
-    background-image: url(../img/topbj/03.jpg);
-}
-.toptitle p{
-	color: white;
+.mdata{
+    padding-bottom: 50px;
     margin: 0 auto;
-    padding: 0;
-    text-align: center;
-    width:100%;
-    font-size: 45px;
-    position: absolute;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    margin-top: 130px;
 }
-.ttr{
+.mdata h1{
+    font-size: 22px;
+    color: rgb(92, 92, 92);
+}
+.mdata p{
+    color: rgb(131, 131, 131);
+    font-size: 15px;
+}
+.mdata a{
+    text-decoration: none;
+	color: rgb(255, 103, 149);
+}
+.design{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
     padding-bottom: 50px;
 }
-.ttr a{
-    text-decoration: none;
-	color: rgb(255, 187, 207);
+.design a{
+    color: rgb(114, 114, 114);
+    font-size: 12px;
 }

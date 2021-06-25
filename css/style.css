@@ -403,6 +403,9 @@ nav .tab ul li a:hover div{
     -ms-user-select: none;
     user-select: none;
 }
+.ttr{
+    padding-bottom: 50px;
+}
 .ttr a{
     text-decoration: none;
 	color: rgb(255, 187, 207);

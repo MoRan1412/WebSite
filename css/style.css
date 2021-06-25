@@ -10,10 +10,10 @@ h1,p,a{
     font-family: 'Noto Serif SC', serif;
 }
 a{
-    cursor: url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/cursor/ayuda.cur), auto
+    cursor: url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/cursor/ayuda.cur), auto;
 }
 h1,p{
-    cursor: url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/cursor/texto.cur), auto
+    cursor: url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/cursor/texto.cur), auto;
 }
 ::selection{
     background-color: rgb(73, 73, 73);
@@ -38,13 +38,25 @@ h1,p{
 .bg{
     width: 100%;
     height: 1024px;
-	background-image:url(../img/bg/p0.jpg);
+	background-image: url(../img/bg/p5.jpg);
 	background-position:center;
     margin: 0 auto;
 	background-size:cover;
     position: absolute;
     top: 0px;
 	border-radius: 0px 0px 20px 20px;
+    z-index: 0;
+}
+.texture{
+    width: 100%;
+    height: 1024px;
+	background-image: url("data:image/svg+xml,%3Csvg width='3' height='3' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='1' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+    background-position:center;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+	border-radius: 0px 0px 20px 20px;
+    z-index: 1;
 }
 nav .logo{
     font-family: 'Shippori Mincho', serif;
@@ -101,7 +113,7 @@ nav .tab ul li a:hover div{
 .menu{
     position: fixed;
     width: 100%;
-    z-index: 9;
+    z-index: 10;
 }
 .menu ul{
     list-style: none;
@@ -128,6 +140,7 @@ nav .tab ul li a:hover div{
     transition: color 0.5s;
 }
 .homedata{
+    z-index: 2;
     height: 500px;
     position: relative;
 	top:200px;
@@ -298,6 +311,9 @@ nav .tab ul li a:hover div{
 	nav{
         display: none;
 	}
+    .texture{
+        background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.46' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+    }
     ::-webkit-scrollbar{
         width: 0;
     }
@@ -364,15 +380,15 @@ nav .tab ul li a:hover div{
 .mdata{
     padding-bottom: 50px;
     margin: 0 auto;
-    margin-top: 130px;
+    margin-top: 150px;
 }
 .mdata h1{
-    font-size: 22px;
+    font-size: 23px;
     color: rgb(92, 92, 92);
 }
 .mdata p{
     color: rgb(131, 131, 131);
-    font-size: 15px;
+    font-size: 15.5px;
 }
 .mdata a{
     text-decoration: none;

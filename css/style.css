@@ -9,6 +9,12 @@ html,body{
 h1,p,a{
     font-family: 'Noto Serif SC', serif;
 }
+a{
+    cursor: url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/cursor/ayuda.cur), auto
+}
+h1,p{
+    cursor: url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/cursor/texto.cur), auto
+}
 ::selection{
     background-color: rgb(73, 73, 73);
     color: white;
@@ -151,7 +157,7 @@ nav .tab ul li a:hover div{
     transition: all 1s;
 }
 .home_meassage:hover{
-    color: rgb(255, 187, 207);
+    color: rgb(255, 103, 149);
     transition: color 1s;
 }
 .homedata .mg{
@@ -274,7 +280,7 @@ nav .tab ul li a:hover div{
     min-width: 55%;
     height: 100%;
     border-radius: 12px;
-    background-size: auto 100%, cover;
+    background-size: auto 100%;
     background-color: black;
     background-position-x: center;
     background-position-y: center;
@@ -285,7 +291,7 @@ nav .tab ul li a:hover div{
     float: right;
 }
 #artical .articalimg:hover,#artical2 .articalimg:hover{
-    background-size: auto 120%, cover;
+    background-size: auto 120%;
     transition: 1s;
 }
 @media screen  and (max-width: 720px) {
@@ -312,13 +318,16 @@ nav .tab ul li a:hover div{
     .homedatalist #artical,.homedatalist #artical2{
         height: 400px;
     }
+    .mdata iframe{
+        height: 250px;
+    }
 }
 @media screen  and (min-width: 720px) {
 	.menu{
 		display: none;
 	}
     .homedata2,.mdata{
-        width: 40%;
+        width: 43%;
         min-width: 640px;
     }
     .homedata{
@@ -327,6 +336,9 @@ nav .tab ul li a:hover div{
     }
     .contactme ul li img{
         max-width: 25px;
+    }
+    .mdata iframe{
+        height: 500px;
     }
 }
 #artimg1{

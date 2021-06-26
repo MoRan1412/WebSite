@@ -169,6 +169,11 @@ nav .tab ul li a:hover div{
 	text-align:center;
     transition: all 1s;
     color: rgba(0, 0, 0, 0.664);
+    height: 50px;
+}
+.home_meassage p{
+    line-height: 50px;
+    overflow: hidden;
 }
 .home_meassage:hover{
     color: rgb(255, 103, 149);

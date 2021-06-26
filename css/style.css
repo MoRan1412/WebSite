@@ -35,6 +35,9 @@ h1,p{
     -ms-user-select: none;
     user-select: none;
 }
+.homedata .mg .home_meassage,nav .tab ul:hover,.contactme ul li img{
+    background-color: rgba(255, 255, 255, 0.774);
+}
 .bg{
     width: 100%;
     height: 1024px;
@@ -78,7 +81,6 @@ nav .tab ul{
     transition: background-color 0.5s;
 }
 nav .tab ul:hover{
-    background-color: rgba(255, 255, 255, 0.87);
     transition: background-color 0.5s;
 }
 nav .tab ul li{
@@ -163,16 +165,14 @@ nav .tab ul li a:hover div{
 	transition: all 1.5s;
 }
 .home_meassage{
-	padding: 2px;
-	border-radius: 100px;
-	background-color: rgba(255,255,255,0.69);
+	border-radius: 12px;
 	text-align:center;
     transition: all 1s;
     color: rgba(0, 0, 0, 0.664);
-    height: 50px;
+    height: 70px;
 }
 .home_meassage p{
-    line-height: 50px;
+    line-height: 70px;
     overflow: hidden;
 }
 .home_meassage:hover{
@@ -200,8 +200,7 @@ nav .tab ul li a:hover div{
 .contactme ul li img{
     width: 7%;
     padding: 2%;
-    background-color: rgba(255,255,255,0.69);
-    border-radius: 100px;
+    border-radius: 12px;
 }
 .homedata2bg{
     margin-top: 1024px;

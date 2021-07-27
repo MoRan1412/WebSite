@@ -165,14 +165,14 @@ nav .tab ul li a:hover div{
 	transition: all 1.5s;
 }
 .home_meassage{
-	border-radius: 12px;
+	border-radius: 10px;
 	text-align:center;
     transition: all 1s;
     color: rgba(0, 0, 0, 0.664);
-    height: 70px;
+    height: 60px;
 }
 .home_meassage p{
-    line-height: 70px;
+    line-height: 60px;
     overflow: hidden;
 }
 .home_meassage:hover{
@@ -198,9 +198,9 @@ nav .tab ul li a:hover div{
     padding: 5px;
 }
 .contactme ul li img{
-    width: 7%;
-    padding: 2%;
-    border-radius: 12px;
+    width: 10%;
+    padding: 7px;
+    border-radius: 10px;
 }
 .homedata2bg{
     margin-top: 1024px;
@@ -294,6 +294,49 @@ nav .tab ul li a:hover div{
     margin: 20px 0px 0px 0px;
     padding: 0;
 }
+.artm{
+    width: 45%;
+    height: 100%;
+    display: inline;
+    float: right;
+    text-align: right;
+}
+.artm .artmt,.artm .artmt3{
+    width: 30%;
+    margin: 0 auto;
+    padding: 5px;
+    margin: 5% 0 2% 6%;
+    font-size: 70%;
+    background-color: rgb(253, 248, 216);
+    border-radius: 5px;
+    color: rgb(253, 215, 0);
+    text-align: center;
+    float: left;
+}
+.artm .artmt2{
+    float: right;
+}
+.artm .artmt4{
+    text-align: left;
+}
+.artm .artmt2 h1,.artm .artmt2 p,.artm .artmt4 h1,.artm .artmt4 p{
+    margin: 0 auto;
+    padding: 0;
+    width: 87%;
+}
+.artm .artmt2 h1,.artm .artmt4 h1{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.856);
+}
+.artm .artmt2 p,.artm .artmt4 p{
+    margin-top: 2%;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.596);
+}
+#artical div,#artical2 div{
+    display: inline;
+    float: left;
+}
 .articalimg{
     width: 0px;
     min-width: 55%;
@@ -327,7 +370,7 @@ nav .tab ul li a:hover div{
         width: 90%;
     }
     .homedata{
-        width: 70%;
+        width: 50%;
     }
     #artical .articalimg,#artical2 .articalimg{
         width: 100%;
@@ -343,6 +386,16 @@ nav .tab ul li a:hover div{
     .mdata iframe{
         height: 250px;
     }
+    .artm{
+        width: 100%;
+        height: 0;
+        display: inline;
+        float: right;
+        text-align: right;
+    }
+    .artm .artmt2{
+        text-align: left;
+}
 }
 @media screen  and (min-width: 720px) {
 	.menu{
@@ -353,8 +406,8 @@ nav .tab ul li a:hover div{
         min-width: 640px;
     }
     .homedata{
-        width: 20%;
-        min-width: 504px;
+        width: 10%;
+        min-width: 360px;
     }
     .contactme ul li img{
         max-width: 25px;
@@ -364,13 +417,13 @@ nav .tab ul li a:hover div{
     }
 }
 #artimg1{
-    background-image: url(../img/bg/p1.jpg);
+    background-image: url(../img/artbg/p1.jpg);
 }
 #artimg2{
-    background-image: url(../img/bg/p0.jpg);
+    background-image: url(../img/artbg/p2.jpg);
 }
 #artimg3{
-    background-image: url(../img/bg/p2.jpg);
+    background-image: url(../img//artbg/p3.jpg);
 }
 .bg2{
     width: 100%;

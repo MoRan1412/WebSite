@@ -1,7 +1,13 @@
-let Pics = ['../img/bg/p0.jpg',
-            '../img/bg/p1.jpg',
-            '../img/bg/p2.jpg',
-            '../img/bg/p3.jpg']
+var  st = someElement.scrollTop;
+console.log(st);
+$(window).scroll(function () {
+
+    var scrollTop = $(window).scrollTop();
     
-var n = 0;
-function myFunction(i)
+        if (scrollTop > 200) {
+            $('nav .tab ul').css('background-color', 'rgba(255, 255, 255, 0.774)');
+                
+        } else if (scrollTop == 0)   {
+            $('nav .tab ul').css('background-color', 'rgba(255, 255, 255, 0)');
+        }	
+});

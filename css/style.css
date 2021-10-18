@@ -383,7 +383,7 @@ nav .tab ul li a:hover div{
     .homedatalist #artical,.homedatalist #artical2{
         height: 400px;
     }
-    .mdata iframe{
+    .mdata img{
         height: 250px;
     }
     .artm{
@@ -412,7 +412,7 @@ nav .tab ul li a:hover div{
     .contactme ul li img{
         max-width: 25px;
     }
-    .mdata iframe{
+    .mdata img{
         height: 500px;
     }
 }
@@ -468,7 +468,7 @@ nav .tab ul li a:hover div{
     text-decoration: none;
 	color: rgb(255, 103, 149);
 }
-.mdata iframe{
+.mdata img{
     margin: 0px 0px 20px 0px;
 }
 .design{

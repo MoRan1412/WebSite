@@ -6,7 +6,7 @@ html,body{
     background-color: white;
     overflow-x: hidden;
 }
-h1,h2,p,a{
+h1,h2,p,a,.mdata>ul>li{
     font-family: 'Noto Serif SC', serif;
 }
 a{
@@ -457,9 +457,9 @@ nav .tab ul li a:hover div{
 .mdata h2{
     font-size: 18px;
     color: rgb(110, 110, 110);
-    margin: 10px 0px 10px 0px;
+    margin: 30px 0px 10px 0px;
 }
-.mdata p{
+.mdata p,.mdata>ul>li{
     color: rgb(131, 131, 131);
     font-size: 15.5px;
     margin: 0px 0px 5px 0px;

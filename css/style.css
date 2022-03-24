@@ -452,12 +452,12 @@ nav .tab ul li a:hover div{
 .mdata h1{
     font-size: 23px;
     color: rgb(92, 92, 92);
-    margin: 15px 0px 15px 0px;
+    margin: 20px 0px 5px 0px;
 }
 .mdata h2{
     font-size: 18px;
     color: rgb(110, 110, 110);
-    margin: 30px 0px 10px 0px;
+    margin: 25px 0px 10px 0px;
 }
 .mdata p,.mdata>ul>li{
     color: rgb(131, 131, 131);

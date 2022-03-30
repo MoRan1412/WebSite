@@ -55,11 +55,11 @@
 <script>
     $.getJSON('https://raw.githubusercontent.com/2845815262/ken/main/DATA.json', function(data) {
 
-    var silkdata = `<p>当前版本: ${data.data.SILK.Update.Version}</p>
+    var silkdata = `<p>最新版本: ${data.data.SILK.Update.Version}</p>
                     <p>更新内容：${data.data.SILK.Update.Content}</p>`;
-    var dazzledata = `<p>当前版本: ${data.data.Dazzle.Update.Version}</p>
+    var dazzledata = `<p>最新版本: ${data.data.Dazzle.Update.Version}</p>
                     <p>更新内容：${data.data.Dazzle.Update.Content}</p>`;
-    var zerodata = `<p>当前版本: ${data.data.ZERO.Update.Version}</p>
+    var zerodata = `<p>最新版本: ${data.data.ZERO.Update.Version}</p>
                     <p>更新内容：${data.data.ZERO.Update.Content}</p>`;
             
     $(".SILK").html(silkdata);

@@ -194,7 +194,7 @@ nav .tab ul li a:hover div {
     width: 130px;
     height: 130px;
     border-radius: 10000px;
-    background-image: url(https://www.ooklibaioo.com/ken/HeadShots/ff2f3df81229e51c9740ec5875ee7b1a.jpg);
+    background-image: url(../img/headshot.png);
     background-size: cover;
     box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.500);
     transition: 1.5s;

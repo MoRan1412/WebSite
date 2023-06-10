@@ -1,11 +1,48 @@
-body,html {
+body,
+html {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none; /* IE 10+ */
 }
 
-/*主页背景*/
+::-webkit-scrollbar {
+    display: none; /* Chrome Safari */
+  }
+
+/* copyright */
+footer {
+    width: 100%;
+    display: flex;
+    background-color: aqua;
+}
+
+/* 手机壁纸 */
+
+#wall1 {
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#wall {
+    width: 50%;
+    height: 40vh;
+    float: left;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wall2 {
+    width: 85%;
+    height: 90%;
+    background-color: rgb(52, 160, 255);
+}
+
+/* 主页背景 */
 
 #HOME {
     width: 100%;
@@ -17,7 +54,7 @@ body,html {
     padding: 0;
 }
 
-/*导航栏*/
+/* 导航栏 */
 
 header {
     display: flex;
@@ -47,7 +84,7 @@ header {
     padding: 0 2vw 0 2vw;
 }
 
-/*主页个人头像资料*/
+/* 主页个人头像资料 */
 
 #opening {
     width: 100%;
@@ -69,7 +106,7 @@ header {
     color: rgb(255, 255, 255)
 }
 
-/*文章*/
+/* 文章 */
 
 main {
     width: 80%;

@@ -41,6 +41,8 @@ footer {
     width: 85%;
     height: 90%;
     background-color: rgb(52, 160, 255);
+    box-shadow: 0 1vh 20px rgba(0, 0, 0, 0.596);
+    border-radius: 15px;
 }
 
 /* 主页背景 */

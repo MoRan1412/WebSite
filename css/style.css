@@ -540,7 +540,6 @@ nav .tab ul li a:hover div {
 .bg2 {
     width: 100%;
     height: 100%;
-    background-image: url(../img/bg/bj.png);
     background-repeat: repeat;
     margin: 0 auto;
     position: fixed;

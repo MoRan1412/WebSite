@@ -60,8 +60,8 @@ nav .tab ul:hover,
 
 .bg {
     width: 100%;
-    height: 1024px;
-    background-image: url(../img/bg/p5.jpg);
+    height: 100vh;
+    background-image: url(../img/bg/p4.jpg);
     background-position: center;
     margin: 0 auto;
     background-size: cover;
@@ -73,7 +73,7 @@ nav .tab ul:hover,
 
 .texture {
     width: 100%;
-    height: 1024px;
+    height: 100vh;
     background-image: url("data:image/svg+xml,%3Csvg width='3' height='3' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='1' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
     background-position: center;
     margin: 0 auto;
@@ -253,7 +253,7 @@ nav .tab ul li a:hover div {
 }
 
 .homedata2bg {
-    margin-top: 1024px;
+    margin-top: 100vh;
     width: 100%;
     text-align: center;
     padding-top: 50px;

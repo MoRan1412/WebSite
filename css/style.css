@@ -26,6 +26,7 @@ footer {
     margin: 0 auto;
     width: 95%;
     background-color: antiquewhite;
+    margin-top: 2vh;
 }
 
 #wall {
@@ -42,7 +43,7 @@ footer {
     width: 85%;
     height: 90%;
     background-color: rgb(52, 160, 255);
-    box-shadow: 0 1vh 20px rgba(0, 0, 0, 0.596);
+    box-shadow: 0 1vh 25px rgba(0, 0, 0, 0.336);
     border-radius: 15px;
 }
 

@@ -100,11 +100,11 @@ footer {
 
 #klwp2 tr #appname {
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 3.5vw;
 }
 
 #klwp2 tr #appdesc {
-    font-size: 15px;
+    font-size: 2.5vw;
     vertical-align: top;
 }
 

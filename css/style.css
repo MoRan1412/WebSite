@@ -89,7 +89,7 @@ footer {
 
 #klwp2 th {
     text-align: left;
-    padding-right: 5%;
+    padding: 2vw 5% 2vw 0;
     width: 20%;
 }
 
@@ -98,13 +98,22 @@ footer {
     text-align: right;
 }
 
+#klwp2 tr #appname {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
 #klwp2 tr #appdesc {
-    font-size: 3vw;
+    font-size: 15px;
+    vertical-align: top;
 }
 
 #klwp2 tr #download a {
-    padding: 2vw 6vw 2vw 6vw;
-    background-color: rgb(255, 255, 255);
+    padding: 2vw 7vw 2vw 7vw;
+    background-color: rgb(216, 61, 61);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
 }
 
 #klwp2 img {

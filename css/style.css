@@ -109,11 +109,12 @@ footer {
 }
 
 #klwp2 tr #download a {
-    padding: 2vw 7vw 2vw 7vw;
+    padding: 1vw 5vw 1vw 5vw;
     background-color: rgb(216, 61, 61);
     color: white;
     border-radius: 10px;
     text-decoration: none;
+    font-size: 2.5vw;
 }
 
 #klwp2 img {

@@ -5,27 +5,31 @@ html {
     margin: 0;
     scroll-behavior: smooth;
     scrollbar-width: none;
-    -ms-overflow-style: none; /* IE 10+ */
+    -ms-overflow-style: none;
+    /* IE 10+ */
 }
 
 ::-webkit-scrollbar {
-    display: none; /* Chrome Safari */
-  }
+    display: none;
+    /* Chrome Safari */
+}
 
 /* copyright */
 
 footer {
     width: 100%;
     display: flex;
-    background-color: aqua;
 }
 
 /* 手机壁纸 */
 
+#wallbg {
+    background-color: rgb(59, 59, 59);
+}
+
 #wall1 {
     margin: 0 auto;
     width: 95%;
-    background-color: antiquewhite;
     margin-top: 2vh;
 }
 
@@ -33,7 +37,6 @@ footer {
     width: 50%;
     height: 40vh;
     float: left;
-    display: inline;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,9 +45,23 @@ footer {
 #wall2 {
     width: 85%;
     height: 90%;
-    background-color: rgb(52, 160, 255);
-    box-shadow: 0 1vh 25px rgba(0, 0, 0, 0.336);
-    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.336);
+    border-radius: 10px;
+    align-items: end;
+    display: flex;
+}
+
+#wall3 {
+    width: 100%;
+    padding: 2vh;
+    background-color: rgba(240, 248, 255, 0.562);
+    border-radius: 0px 0px 10px 10px;
+}
+
+#wall3 p {
+    padding: 0;
+    margin: 0;
+    color: black;
 }
 
 /* 主页背景 */

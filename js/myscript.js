@@ -5,6 +5,7 @@ $(function () {
     let photo = "";
 
     for (let i = 0; i < 40; i++) {
+
         photo = i;
         link = '../../imgs/Wallpaper/' + photo + '.jpg';
 

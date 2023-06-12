@@ -54,14 +54,14 @@ footer {
 #wall3 {
     width: 100%;
     padding: 2vh;
-    background-color: rgba(240, 248, 255, 0.562);
+    background-color: rgba(0, 0, 0, 0.829);
     border-radius: 0px 0px 10px 10px;
 }
 
 #wall3 p {
     padding: 0;
     margin: 0;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 /* 主页背景 */

@@ -18,7 +18,7 @@ html {
 
 footer {
     width: 100%;
-    display: flex;
+    text-align: center;
 }
 
 /* 手机壁纸 */
@@ -72,6 +72,44 @@ footer {
     background-image: url(../imgs/klwp/silk.jpg);
     background-size: cover;
     background-position: center;
+}
+
+#klwp2 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#klwp2 h2 {
+    color: white;
+}
+
+#klwp2 td {
+    color: white;
+}
+
+#klwp2 th {
+    text-align: left;
+    padding-right: 5%;
+    width: 20%;
+}
+
+#klwp2 tr #download {
+    width: 30%;
+    text-align: right;
+}
+
+#klwp2 tr #appdesc {
+    font-size: 3vw;
+}
+
+#klwp2 tr #download a {
+    padding: 2vw 6vw 2vw 6vw;
+    background-color: rgb(255, 255, 255);
+}
+
+#klwp2 img {
+    width: 100%;
+    border-radius: 10px;
 }
 
 /* 主页背景 */

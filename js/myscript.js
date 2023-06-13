@@ -14,3 +14,7 @@ $(function () {
 
     document.getElementById("wall1").innerHTML = wall;
 })
+
+function klwp() {
+    window.location.href = "https://www.ooklibaioo.com/apk/KLWP_Pro.apk";
+}

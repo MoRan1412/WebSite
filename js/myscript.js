@@ -15,6 +15,14 @@ $(function () {
     document.getElementById("wall1").innerHTML = wall;
 })
 
-function klwp() {
+function klwppro() {
     window.location.href = "https://www.ooklibaioo.com/apk/KLWP_Pro.apk";
+}
+
+function klwp() {
+    window.location.href = "https://www.ooklibaioo.com/apk/KLWP.apk";
+}
+
+function silk() {
+    window.location.href = "https://www.ooklibaioo.com/apk/SILKUI.apk";
 }

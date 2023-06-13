@@ -38,3 +38,7 @@ function novab() {
 function empty() {
     window.location.href = "https://www.ooklibaioo.com/apk/EmptyW.apk";
 }
+
+function harmonymm() {
+    window.location.href = "https://www.ooklibaioo.com/apk/Harmony3_0Manager.apk";
+}

@@ -51,16 +51,16 @@ footer {
     width: 85%;
     height: 90%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.336);
-    border-radius: 10px;
+    border-radius: 1.5vw;
     align-items: end;
     display: flex;
 }
 
 #wall3 {
     width: 100%;
-    padding: 2vh;
-    background-color: rgba(0, 0, 0, 0.829);
-    border-radius: 0px 0px 10px 10px;
+    padding: 3vw;
+    background-color: rgba(56, 56, 56, 0.548);
+    border-radius: 0px 0px 1.5vw 1.5vw;
 }
 
 #wall3 p {

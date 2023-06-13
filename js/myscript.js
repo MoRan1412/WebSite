@@ -26,3 +26,15 @@ function klwp() {
 function silk() {
     window.location.href = "https://www.ooklibaioo.com/apk/SILKUI.apk";
 }
+
+function noval() {
+    window.location.href = "https://www.ooklibaioo.com/apk/NovaLauncher.apk";
+}
+
+function novab() {
+    window.location.href = "https://www.ooklibaioo.com/apk/NovaBackup.novabackup";
+}
+
+function empty() {
+    window.location.href = "https://www.ooklibaioo.com/apk/EmptyW.apk";
+}

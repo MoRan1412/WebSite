@@ -37,6 +37,7 @@ footer {
     display: flex;
     background-color: rgba(0, 0, 0, 0.322);
     border-radius: 4vw;
+    margin-bottom: 1.5vh;
 }
 
 #devlogo {
@@ -52,7 +53,10 @@ footer {
     margin-top: -6vw;
 }
 
-#devname {}
+#devname {
+    width: 82%;
+}
+
 
 /* 手机壁纸 */
 

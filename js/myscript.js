@@ -7,9 +7,10 @@ $(function () {
     for (let i = 0; i < 40; i++) {
 
         photo = i;
-        link = '../../imgs/Wallpaper/' + photo + '.jpg';
+        link = 'https://www.ooklibaioo.com/imgs/Wallpaper/' + photo + '.jpg';
+        download = "window.location.href ='" + link + "'";
 
-        wall += '<a href = "' + link + '" download="" target="_blank"><div id="wall"><div id="wall2" style="background-image: url(' + link + ');background-size: cover;background-position: center;"><div id="wall3"><p>点击下载</p></div></div></div></a>';
+        wall += '<a href="javascript:void(0);" onclick="' + download + ';return false;"><div id="wall"><div id="wall2" style="background-image: url(' + link + ');background-size: cover;background-position: center;"><div id="wall3"></div></div></div></a>';
     }
 
     document.getElementById("wall1").innerHTML = wall;

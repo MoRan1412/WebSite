@@ -30,17 +30,29 @@ footer {
 
 #pingpai {
     width: 100%;
-    background-color: aliceblue;
 }
 
 #pingpai2 {
-    padding: 2vw;
+    padding: 3vw;
     display: flex;
+    background-color: rgba(0, 0, 0, 0.322);
+    border-radius: 4vw;
 }
 
-#pingpai2>img {
-    width: 10%;
+#devlogo {
+    width: 18%;
+    position: relative;
 }
+
+#devlogo img {
+    border-radius: 2vw;
+    width: 12vw;
+    position: absolute;
+    top: 50%;
+    margin-top: -6vw;
+}
+
+#devname {}
 
 /* 手机壁纸 */
 
@@ -136,7 +148,7 @@ footer {
     font-size: 3.2vw;
 }
 
-#klwp2 img {
+#klwp2 th img {
     width: 100%;
     border-radius: 10px;
 }

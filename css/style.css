@@ -195,15 +195,15 @@ header {
 
 .nav-menu li {
     float: left;
-    background-color: aqua;
     margin: 0;
     display: flex;
 }
 
 .nav-menu li a {
     display: block;
-    background-color: aquamarine;
+    color: black;
     padding: 0 2vw 0 2vw;
+    text-decoration: none;
 }
 
 /* 主页个人头像资料 */

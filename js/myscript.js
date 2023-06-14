@@ -9,9 +9,9 @@ $(function () {
         photo = i;
         link = '../../imgs/Wallpaper/' + photo + '.jpg';
 
-        click = "location.href='"+link+"'";
+        click = "location.href='"+link+"';";
 
-        wall += '<div id="wall" onclick="'+click+'"><div id="wall2" style="background-image: url(' + link + ');background-size: cover;background-position: center;"><div id="wall3"></div></div></div>';
+        wall += '<div id="wall" onclick="'+click+'return false;"><div id="wall2" style="background-image: url(' + link + ');background-size: cover;background-position: center;"><div id="wall3"></div></div></div>';
     }
 
     document.getElementById("wall1").innerHTML = wall;

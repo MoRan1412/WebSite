@@ -48,40 +48,24 @@ footer {
 }
 
 #devlogo {
-    width: 13vw;
+    width: 18%;
     position: relative;
 }
 
-#xiaomi,
-#huawei,
-#oppo,
-#vivo,
-#samsung {
+#devlogo img {
     border-radius: 2vw;
-    width: 10vw;
-    height: 10vw;
-    background-position: center;
-    background-size: cover;
-}
-
-#xiaomi {
-    background-image: url(../imgs/devicelogo/xiaomi.jpg);
-}
-
-#huawei {
-    background-image: url(../imgs/devicelogo/huawei.jpg);
-}
-
-#oppo {
-    background-image: url(../imgs/devicelogo/oppo.jpg);
-}
-
-#vivo {
-    background-image: url(../imgs/devicelogo/vivo.jpg);
-}
-
-#samsung {
-    background-image: url(../imgs/devicelogo/samsung.png);
+    width: 12vw;
+    position: absolute;
+    top: 50%;
+    margin-top: -6vw;
+    pointer-events: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 #devname {
@@ -183,7 +167,7 @@ footer {
     font-size: 3.2vw;
 }
 
-#klwp2 img {
+#klwp2 th img {
     width: 100%;
     border-radius: 10px;
     pointer-events: none;

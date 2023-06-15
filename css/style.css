@@ -52,7 +52,11 @@ footer {
     position: relative;
 }
 
-#xiaomi,#huawei,#oppo,#vivo,#samsung {
+#xiaomi,
+#huawei,
+#oppo,
+#vivo,
+#samsung {
     border-radius: 2vw;
     width: 10vw;
     height: 10vw;
@@ -182,7 +186,16 @@ footer {
 #klwp2 th img {
     width: 100%;
     border-radius: 10px;
+    pointer-events: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
 }
+
 
 /* 主页背景 */
 

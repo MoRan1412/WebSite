@@ -26,7 +26,7 @@ function klwp() {
 }
 
 function silk() {
-    window.location.href = "https://www.ooklibaioo.com/apk/SilkUI.klwp";
+    window.location.href = "https://www.ooklibaioo.com/apk/SILKUI.apk";
 }
 
 function noval() {

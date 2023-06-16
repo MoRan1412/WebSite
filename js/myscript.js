@@ -46,7 +46,7 @@ function harmonymm() {
 }
 
 
-$.getJSON('https://raw.githubusercontent.com/MoRan1412/KLWP-Data/main/Update/Silk.json', function (data) {
+$.getJSON('https://gitee.com/ken-cheng/KLWP-Data/raw/main/Update/Silk.json', function (data) {
 
     var text = `v${data.version}`
 

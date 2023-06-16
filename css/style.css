@@ -116,10 +116,9 @@ footer {
 
 /* 安装KLWP壁纸 */
 
-#klwp1 {
+#klwp1 embed {
     width: 100%;
     height: calc(100vw * (9/16));
-    background-image: url(../imgs/klwp/silk.jpg);
     background-size: cover;
     background-position: center;
 }

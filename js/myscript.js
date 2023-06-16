@@ -40,7 +40,7 @@ function novab() {
 }
 
 function empty() {
-    window.location.href = "https://www.ooklibaioo.com/apk/EmptyW.apk";
+    window.location.href = "http://zuoye.free.fr/files/EmptyW.apk";
 }
 
 function harmonymm() {

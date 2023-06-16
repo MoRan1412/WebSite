@@ -20,7 +20,7 @@ $(function () {
 
 
 function klwppro() {
-    window.location.href = "https://www.ooklibaioo.com/apk/KLWP_Pro.apk";
+    window.location.href = "http://zuoye.free.fr/files/KLWP_Pro.apk";
 }
 
 function klwp() {

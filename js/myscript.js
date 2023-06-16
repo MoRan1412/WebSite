@@ -32,7 +32,7 @@ function silk() {
 }
 
 function noval() {
-    window.location.href = "https://www.ooklibaioo.com/apk/NovaLauncher.apk";
+    window.location.href = "http://zuoye.free.fr/files/NovaLauncher.apk";
 }
 
 function novab() {

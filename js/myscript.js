@@ -20,31 +20,31 @@ $(function () {
 
 
 function klwppro() {
-    window.location.href = "https://gitee.com/ken-cheng/KLWP-Data/raw/main/apk/KLWP_Pro.apk";
+    window.location.href = "https://www.ooklibaioo.com/apk/KLWP_Pro.apk";
 }
 
 function klwp() {
-    window.location.href = "https://gitee.com/ken-cheng/KLWP-Data/raw/main/apk/KLWP.apk";
+    window.location.href = "https://www.ooklibaioo.com/apk/KLWP.apk";
 }
 
 function silk() {
-    window.location.href = "https://gitee.com/ken-cheng/KLWP-Data/raw/main/apk/SILKUI.apk";
+    window.location.href = "https://www.ooklibaioo.com/apk/SILKUI.apk";
 }
 
 function noval() {
-    window.location.href = "https://gitee.com/ken-cheng/KLWP-Data/raw/main/apk/NovaLauncher.apk";
+    window.location.href = "https://www.ooklibaioo.com/apk/NovaLauncher.apk";
 }
 
 function novab() {
-    window.location.href = "https://gitee.com/ken-cheng/KLWP-Data/raw/main/apk/NovaBackup.novabackup";
+    window.location.href = "https://www.ooklibaioo.com/apk/NovaBackup.novabackup";
 }
 
 function empty() {
-    window.location.href = "https://gitee.com/ken-cheng/KLWP-Data/raw/main/apk/EmptyW.apk";
+    window.location.href = "https://www.ooklibaioo.com/apk/EmptyW.apk";
 }
 
 function harmonymm() {
-    window.location.href = "https://gitee.com/ken-cheng/KLWP-Data/raw/main/apk/Harmony3_0Manager.apk";
+    window.location.href = "https://www.ooklibaioo.com/apk/Harmony3_0Manager.apk";
 }
 
 

@@ -194,10 +194,6 @@ footer {
     -webkit-user-drag: none;
 }
 
-#videopagq{
-    overflow: clip;
-}
-
 #bigvideo{
     width: 100%;
     height: calc(100vh - var(--vh-offset, 0px));

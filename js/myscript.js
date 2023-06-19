@@ -18,7 +18,7 @@ $(function () {
 
 })
 
-
+/*
 function klwppro() {
     window.location.href = "https://www.ooklibaioo.com/apk/KLWP_Pro.apk";
 }
@@ -53,4 +53,4 @@ $.getJSON('https://raw.githubusercontent.com/MoRan1412/KLWP-Data/main/Update/Sil
     var text = `v${data.version}`
 
     $(".silkver").html(text);
-});
+}); */
